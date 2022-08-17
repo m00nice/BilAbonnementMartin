@@ -19,15 +19,15 @@ public class UserRepository extends Repository {
         List<User> allUsers = new ArrayList<>();
 
         try {
-            PreparedStatement pstmt = DataBaseConnectionManager.getConnection().prepareStatement("SELECT * FROM car");
+            PreparedStatement pstmt = DataBaseConnectionManager.getConnection().prepareStatement("SELECT * FROM user");
             ResultSet rs = pstmt.executeQuery();
 
             while (rs.next()){
 
                 User temp = new User(
-                        rs.getString(1),
                         rs.getString(2),
-                        rs.getInt(3),
+                        rs.getString(3),
+                        rs.getInt(1),
                         rs.getString(4)
                 );
                 allUsers.add(temp);

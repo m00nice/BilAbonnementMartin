@@ -20,7 +20,7 @@ public class CustomerRepository  extends Repository {
         List<Customer> allCustomers = new ArrayList<>();
 
         try {
-            PreparedStatement pstmt = DataBaseConnectionManager.getConnection().prepareStatement("SELECT * FROM car");
+            PreparedStatement pstmt = DataBaseConnectionManager.getConnection().prepareStatement("SELECT * FROM customer");
             ResultSet rs = pstmt.executeQuery();
 
             while (rs.next()){

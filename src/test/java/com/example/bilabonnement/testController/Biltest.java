@@ -1,6 +1,7 @@
 package com.example.bilabonnement.testController;
 
-import com.example.bilabonnement.delete.controller.models.Bil;
+
+import com.example.bilabonnement.model.Car;
 import com.example.bilabonnement.testService.TestService;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -18,11 +19,11 @@ public class Biltest {
         TestService testService = new TestService();
 
         //Act
-        Bil bil = new Bil(2011, "Skoda", "Citigo", "Hvid", 1, 1, 21000, "null", 0);
+        Car car = new Car(2011, "Skoda", "Citigo", "Hvid", 1, 1, "Mangel på 1 hjul", 2300, 3000);
         boolean forventet = true;
 
         //Assert
-        boolean resultat = testService.erPrisOverGennemsnit(bil);
+        boolean resultat = testService.erPrisOverGennemsnit(car);
         assertEquals(forventet, resultat);
 
     }

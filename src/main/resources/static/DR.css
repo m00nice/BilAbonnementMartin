@@ -104,3 +104,35 @@ tr:nth-child(even) {
     cursor: pointer;
     position: center;
 }
+
+
+.AccordionInput{
+    display: none;
+}
+.AccordionLabel{
+    display: inherit;
+    padding: 8px 22px;
+    margin: 0 0 1px 0;
+    cursor: pointer;
+    background: #6AAB95;
+    border-radius: 3px;
+    color: #FFF;
+    transition: ease .5s;
+}
+.AccordionLabel:hover{
+    background: #4E8774;
+}
+.AccordionContent {
+    background: #E2E5F6;
+    padding: 10px 25px;
+    border: 1px solid #A7A7A7;
+    margin: 0 0 1px 0;
+    border-radius: 3px;
+}
+.AccordionInput + .AccordionLabel + .AccordionContent {
+    display: none;
+}
+
+.AccordionInput:checked + .AccordionLabel + .AccordionContent {
+    display: inherit;
+}

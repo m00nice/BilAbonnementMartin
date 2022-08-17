@@ -17,13 +17,13 @@ public class ReservationController {
 
     @GetMapping("/Dataregistrering/Valid")
     public String ValidReservationer(Model model){
-        ArrayList liste = ReservationService.getValidReservationList();
-        model.addAttribute("validliste",liste);
+        ArrayList list = ReservationService.getValidReservationList();
+        model.addAttribute("validlist",list);
         return "Dataregistrering";
     }
     @PostMapping("/Dataregistrering/Valid")
-    public String changeValidation(WebRequest bilData){
-        int reservationID = Integer.parseInt(bilData.getParameter("reservationID"));
+    public String changeValidation(WebRequest reservationData){
+        int reservationID = Integer.parseInt(reservationData.getParameter("reservationID"));
         ReservationService.changeValidationReservation(ReservationService.getReservation(reservationID));
         return "redirect:http://localhost:8080/Dataregistrering/Valid";
     }

@@ -6,7 +6,7 @@ Forfatter: @Martin Anberg
 <head>
     <meta charset="UTF-8">
     <title>Skade&Udbedring</title>
-    <link rel="stylesheet" th:href="@{/SogUSkade.Style.css}" href="../static/SogUSkade.Style.css">
+    <link rel="stylesheet" th:href="@{/SL.css}" href="../static/SL.css">
 </head>
 
 
@@ -17,7 +17,7 @@ Forfatter: @Martin Anberg
     </div>
 
     <div id="headerCenter">
-        <img th:src="@{/Images/BILABONNEMENT.png}" src="/static/Images/BILABONNEMENT.png" alt="BILABONNEMENT.LOGO" height="100%" width="50%">
+        <img th:src="@{/Images/BILABONNEMENT.png}" src="/Images/BILABONNEMENT.png" alt="BILABONNEMENT.LOGO" height="100%" width="50%">
     </div>
 
     <div id="headerRight">
@@ -31,7 +31,7 @@ Forfatter: @Martin Anberg
 <br><br>
 <section>
     <form action="http://localhost:8080/SkadeOgUdbedring/Biler-uden-skader?">
-    <button class="CarButton" type="submit">Vis ubeskadigede biler</button></form>
+        <button class="CarButton" type="submit">Vis ubeskadigede biler</button></form>
 </section>
 
 
@@ -46,16 +46,16 @@ Forfatter: @Martin Anberg
             <th>Fejl</th>
             <th>Pris på fejl</th>
         </tr>
-        <tr th:each="bil:${skadetBilListe}">
-            <td th:text="${bil.bil_ID}"></td>
-            <td th:text="${bil.aargang}"></td>
-            <td th:text="${bil.maerke}"></td>
-            <td th:text="${bil.model}"></td>
-            <td th:text="${bil.farve}"></td>
-            <td th:text="${bil.fejl}"></td>
-            <td th:text="${bil.fejl_pris}"></td>
+        <tr th:each="car:${damagedList}">
+            <td th:text="${car.carID}"></td>
+            <td th:text="${car.carVintage}"></td>
+            <td th:text="${car.carBrand}"></td>
+            <td th:text="${car.carName}"></td>
+            <td th:text="${car.carColour}"></td>
+            <td th:text="${car.damage}"></td>
+            <td th:text="${car.damagePrice}"></td>
             <form action="/SkadeOgUdbedring/Biler-med-skader?" method="post">
-                <input type="hidden" id="bil_ID" name="bil_ID" th:value="${bil.bil_ID}">
+                <input type="hidden" id="carID" name="carID" th:value="${car.carID}">
                 <td><button type="submit" name="submit" value="Slet fejl">Slet fejl</button></td>
             </form>
         </tr>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<!--
+Forfatter: @Cemakay Türker, August Høg Dedenroth
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>Forretningsudviklere</title>
+    <link rel="stylesheet" th:href="@{/FU.css}" href="/static/FU.css">
+</head>
+
+<header>
+    <div id="headerLeft">
+        <a th:href="@{/logout}">
+            <button class="buttonLogOut">Log out</button></a>
+    </div>
+
+    <div id="headerCenter">
+        <img th:src="@{/Images/BILABONNEMENT.png}" src="/Images/BILABONNEMENT.png" alt="BILABONNEMENT.LOGO" height="100%" width="50%">
+    </div>
+
+    <div id="headerRight">
+        <p class="counterweight1"></p>
+    </div>
+</header>
+
+<body>
+<section class="forretningsudviklerBox"><div style="font-size: 250%; align-self: center;"><b>Forretningsudviklere</b></div></section>
+
+<section class="totalPris">
+    <div style="font-size: 120%;"><nobr>Total pris: <text th:text="${totalPrice}"></text> kr</nobr>
+    </div>
+</section>
+<div class="table-container">
+    <table style="width:700px">
+        <tr>
+            <th>Udlejet Biler (ID)</th>
+            <th>Kunde ID</th>
+            <th>Mærke</th>
+            <th>Pris</th>
+        </tr>
+        <tr th:each="car:${carList}">
+            <td th:text="${car.carID}"></td>
+            <td th:text="${car.carName}"></td>
+            <td th:text="${car.carBrand}"></td>
+            <td th:text="${car.rentPrice}"><td>
+        </tr>
+    </table>
+</div>
+</body>
+<footer>
+
+</footer>
+</html>

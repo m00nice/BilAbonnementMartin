@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <!--
 Forfatter: @Tobias Winkel
 -->
@@ -7,7 +7,7 @@ Forfatter: @Tobias Winkel
 <head>
     <meta charset="UTF-8">
     <title>Dataregistrering</title>
-    <link rel="stylesheet" th:href="@{/DR.Style.css}" href="../static/DR.Style.css">
+    <link rel="stylesheet" th:href="@{/DR.css}" href="../static/DR.css">
 </head>
 <header>
     <div id="headerLeft">
@@ -16,7 +16,7 @@ Forfatter: @Tobias Winkel
     </div>
 
     <div id="headerCenter">
-        <img th:src="@{/Images/BILABONNEMENT.png}" src="/static/Images/BILABONNEMENT.png" alt="BILABONNEMENT.LOGO" height="100%" width="50%">
+        <img th:src="@{/Images/BILABONNEMENT.png}" src="/Images/BILABONNEMENT.png" alt="BILABONNEMENT.LOGO" height="100%" width="50%">
     </div>
 
     <div id="headerRight">
@@ -37,16 +37,16 @@ Forfatter: @Tobias Winkel
 <div class="table-container1"; style="height:500px">
     <table style="width:700px">
         <tr>
-            <th>Bil ID</th>
-            <th>Kunde ID</th>
+            <th>Bil</th>
+            <th>Kunde</th>
             <th>Startdato</th>
             <th>Slutdato</th>
         </tr>
-        <tr th:each="reservation:${validliste}">
-            <td th:text="${reservation.bilID}"></td>
-            <td th:text="${reservation.kundeID}"></td>
-            <td th:text="${reservation.startDato}"><td>
-            <td th:text="${reservation.slutDato}"><td>
+        <tr th:each="reservation:${validlist}">
+            <td th:text="${reservation.Car.carName}"></td>
+            <td th:text="${reservation.Customer.name}"></td>
+            <td th:text="${reservation.startDate}"><td>
+            <td th:text="${reservation.slutDate}"><td>
             <form action="/Dataregistrering/Valid" method="post">
                 <input type="hidden" name="reservationID" th:value="${reservation.reservationID}">
             <td><button type="submit" name="submit" value="submit" style="color: black; background-color: white">Invalider</button></td>

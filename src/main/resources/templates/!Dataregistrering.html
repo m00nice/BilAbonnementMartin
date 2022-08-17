@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dataregistrering</title>
+    <link rel="stylesheet" th:href="@{/DR.css}" href="../static/DR.css">
+</head>
+<header>
+    <div id="headerLeft">
+        <a th:href="@{/logout}">
+            <button class="buttonLogOut">Log out</button></a>
+    </div>
+
+    <div id="headerCenter">
+        <img th:src="@{/Images/BILABONNEMENT.png}" src="/Images/BILABONNEMENT.png" alt="BILABONNEMENT.LOGO" width="50%">
+    </div>
+
+    <div id="headerRight">
+        <p class="counterweight1"></p>
+    </div>
+</header>
+<body>
+<div class="Dataregistreringsbox"><h1>Dataregistrering - Reservationer til godkendelse</h1></div>
+<br><br>
+<section>
+    <form action="http://localhost:8080/Dataregistrering/Valid">
+        <button class="leftCarButton">Validerede reservationer</button></form>
+</section>
+
+
+
+
+</label>
+<div class="table-container2" style="height:500px">
+    <table style="width:700px">
+        <tr>
+            <th>Bil ID</th>
+            <th>Kunde ID</th>
+            <th>Startdato</th>
+            <th>Slutdato</th>
+        </tr>
+
+
+        <tr th:each="reservation:${invalidliste}">
+            <input class="AccordionInput" type="checkbox" id="${reservation.bilID}">
+            <label class="AccordionLabel" for="${reservation.bilID}">
+                <td th:text="${reservation.bilID}"></td>
+                <td th:text="${reservation.kundeID}"></td>
+                <td th:text="${reservation.startDato}"><td>
+                <td th:text="${reservation.slutDato}"><td>
+                <form action="/Dataregistrering/Invalid" method="post">
+                    <input type="hidden" name="reservationID" th:value="${reservation.reservationID}">
+                <td><button type="submit" name="submit" value="submit" style="color: black; background-color: white">Valider</button></td>
+                </form>
+                <form action="/Dataregistrering/Invalid/DELETE" method="post">
+                    <input type="hidden" name="reservationID" th:value="${reservation.reservationID}">
+                    <td><button type="submit" name="submit" value="submit" style="color: black; background-color: white">Slet</button></td>
+                </form>
+            </label>
+            <div class="AccordionContent">
+                <p>bfbdf</p>
+            </div>
+
+
+        </tr>
+    </table>
+</div>
+
+
+</body>
+<footer>
+
+</footer>
+</html>

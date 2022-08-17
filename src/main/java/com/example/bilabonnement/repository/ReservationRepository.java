@@ -20,7 +20,7 @@ public class ReservationRepository extends Repository {
         List<Reservation> allUsers = new ArrayList<>();
 
         try {
-            PreparedStatement pstmt = DataBaseConnectionManager.getConnection().prepareStatement("SELECT * FROM car");
+            PreparedStatement pstmt = DataBaseConnectionManager.getConnection().prepareStatement("SELECT * FROM reservation");
             ResultSet rs = pstmt.executeQuery();
 
             while (rs.next()){
