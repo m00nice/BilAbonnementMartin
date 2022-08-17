@@ -1,8 +1,8 @@
 package com.example.bilabonnement.controller;
 
-import com.example.bilabonnement.models.Reservation;
-import com.example.bilabonnement.service.BilService;
-import com.example.bilabonnement.service.KundeService;
+import com.example.bilabonnement.model.Reservation;
+import com.example.bilabonnement.service.CarService;
+import com.example.bilabonnement.service.CustomerService;
 import com.example.bilabonnement.service.ReservationService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -12,54 +12,49 @@ import org.springframework.web.context.request.WebRequest;
 
 import java.util.ArrayList;
 
-// Forfatter @Martin Anberg @Tobias Winkel
 @Controller
 public class ReservationController {
 
-    private final ReservationService reservationService = new ReservationService();
-    private final BilService bilService = new BilService();
-    private final KundeService kundeService = new KundeService();
-
     @GetMapping("/Dataregistrering/Valid")
-    public String visValidReservationer(Model model){
-        ArrayList liste = reservationService.opretValidReservationList();
+    public String ValidReservationer(Model model){
+        ArrayList liste = ReservationService.getValidReservationList();
         model.addAttribute("validliste",liste);
-        return "DataregistreringValid";
+        return "Dataregistrering";
     }
     @PostMapping("/Dataregistrering/Valid")
-    public String ændreValidation1(WebRequest bilData){
+    public String changeValidation(WebRequest bilData){
         int reservationID = Integer.parseInt(bilData.getParameter("reservationID"));
-        reservationService.ændreValidationReservation(reservationService.getReservation(reservationID));
+        ReservationService.changeValidationReservation(ReservationService.getReservation(reservationID));
         return "redirect:http://localhost:8080/Dataregistrering/Valid";
     }
 
     @GetMapping("/Dataregistrering/Invalid")
-    public String visInvalidReservationer(Model model){
-        ArrayList liste = reservationService.opretInvalidReservationList();
+    public String InvalidReservationer(Model model){
+        ArrayList liste = ReservationService.getInvalidReservationList();
         model.addAttribute("invalidliste",liste);
-        return "DataregistreringInvalid";
+        return "!Dataregistrering";
     }
 
     @PostMapping("/Dataregistrering/Invalid")
-    public String ændreValidation2(WebRequest bilData){
+    public String changeInvalidation(WebRequest bilData){
         int reservationID = Integer.parseInt(bilData.getParameter("reservationID"));
-        reservationService.ændreValidationReservation(reservationService.getReservation(reservationID));
+        ReservationService.changeValidationReservation(ReservationService.getReservation(reservationID));
         return "redirect:http://localhost:8080/Dataregistrering/Invalid";
     }
     @PostMapping("/Dataregistrering/Invalid/DELETE")
-    public String sletReservation(WebRequest bilData){
+    public String deleteReservation(WebRequest bilData){
         int reservationID = Integer.parseInt(bilData.getParameter("reservationID"));
-        reservationService.sletReservation(reservationID);
+        ReservationService.deleteReservation(reservationID);
         return "redirect:http://localhost:8080/Dataregistrering/Invalid";
     }
 
     @GetMapping("/Dataregistrering/info")
-    public String visReservationInfo(Reservation reservation, Model model1, Model model2){
+    public String ReservationInfo(Reservation reservation, Model model1, Model model2){
 
-        model1.addAttribute("bilTilInfo",bilService.getBil(reservation.getBilID()));
-        model2.addAttribute("kundeInfo",kundeService.getKunde(reservation.getKundeID()));
+        model1.addAttribute("bilTilInfo", CarService.getCar(reservation.getCar().getCarID()));
+        model2.addAttribute("kundeInfo", CustomerService.getCustomer(reservation.getCustomer().getCustomerId()));
 
-        return "DataregistreringValid";
+        return "Dataregistrering";
 
     }
 

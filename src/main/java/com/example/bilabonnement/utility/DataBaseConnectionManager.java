@@ -1,18 +1,18 @@
-package utility;
-// Forfatter @Cemakey Türker
+package com.example.bilabonnement.utility;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-
-public class DatabaseConnectionManager {
+public class DataBaseConnectionManager {
     private static String url;
     private static String username;
     private static String password;
     private static Connection conn;
 
-    private DatabaseConnectionManager(){}
+    static  DataBaseConnectionManager dataBaseConnectionManager = new DataBaseConnectionManager();
+    private DataBaseConnectionManager(){}
+
 
     public static Connection getConnection(){
         if(conn != null){
@@ -32,5 +32,4 @@ public class DatabaseConnectionManager {
 
         return conn;
     }
-
 }

@@ -1,9 +1,8 @@
 package com.example.bilabonnement.testRepository;
 
-import com.example.bilabonnement.models.Bil;
-import com.example.bilabonnement.models.Reservation;
+import com.example.bilabonnement.delete.controller.models.Bil;
+import com.example.bilabonnement.delete.controller.models.Reservation;
 
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;

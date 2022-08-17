@@ -1,7 +1,7 @@
 package com.example.bilabonnement.testService;
 
-import com.example.bilabonnement.models.Bil;
-import com.example.bilabonnement.models.Reservation;
+import com.example.bilabonnement.delete.controller.models.Bil;
+import com.example.bilabonnement.delete.controller.models.Reservation;
 import com.example.bilabonnement.testRepository.TestRepository;
 
 import java.util.ArrayList;

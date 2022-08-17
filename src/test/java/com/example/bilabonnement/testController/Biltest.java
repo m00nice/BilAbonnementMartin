@@ -1,6 +1,6 @@
 package com.example.bilabonnement.testController;
 
-import com.example.bilabonnement.models.Bil;
+import com.example.bilabonnement.delete.controller.models.Bil;
 import com.example.bilabonnement.testService.TestService;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
