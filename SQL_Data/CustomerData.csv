@@ -1,0 +1,6 @@
+customerID,name,email,phonenumber,streetAddress,cityID,cpr_nr
+10,"John Johnson",John@mail.com,23232323,"Johnvej 12",2890,2304014456
+11,"Bob Bobsen",Bob@mail.com,21212121,"Bobvej 12",2891,2104983389
+12,"Klaus Klausen",Klaus@mail.com,22222222,"Klausvej 12",2892,1212001212
+13,"Hugo Hugosen",Hogu@mail.com,33333333,"Hugovej 12",2893,1204001111
+14,"Tim Timsen",Tim@mail.com,44444444,"Timvej 12",2896,1234556666

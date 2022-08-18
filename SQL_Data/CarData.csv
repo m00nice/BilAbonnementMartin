@@ -1,0 +1,33 @@
+carID,carName,carBrand,carColour,carVintage,rentPrice,damageID
+5,Ceed,KIA,Hvid,2006,3000,NULL
+37,E-klasse,Mercedes,Blå,2005,3000,NULL
+38,"100 D minibus",Mercedes,Rød,2004,4000,NULL
+39,"230SL cabriolet",Mercedes,Blå,2003,5000,NULL
+40,"SL600 Coupé",Mercedes,Hvid,2002,3000,NULL
+41,230TE,Mercedes,Gul,2001,4500,NULL
+42,"500 SE",Mercedes,Grøn,2000,2800,NULL
+43,"CDi AMG Line Coupé aut.",Mercedes,Brun,2001,2500,NULL
+44,Picanto,KIA,Rød,2001,3000,NULL
+45,Rio,KIA,Rød,2002,3000,NULL
+46,Stonic,KIA,Rød,2003,3000,NULL
+47,e-Soul,KIA,Hvid,2004,3500,NULL
+48,"Ceed 5d",KIA,Blå,2005,3800,NULL
+49,"Ceed SW",KIA,Blå,2007,3600,NULL
+50,"Ceed Plug-in Hyprid",KIA,Rød,2008,3700,NULL
+51,Zoé,Renault,Gul,2006,3800,NULL
+52,Celtaquatra,Renault,Grøn,2002,3000,NULL
+53,Frégate,Renault,Brun,2006,4000,NULL
+54,Alto,Suzuki,Rød,2008,5000,NULL
+55,Baleno,Suzuki,Hvid,2009,5000,NULL
+56,Celerio,Suzuki,Hvid,2015,5500,NULL
+57,Cultus,Suzuki,Hvid,2015,5500,NULL
+58,Fiesta,Ford,Sort,1989,2000,NULL
+59,Focus,Ford,Sort,2018,6000,NULL
+60,Escort,Ford,Sort,2015,5500,NULL
+61,Taurus,Ford,Sort,2011,5000,NULL
+62,GT,Ford,Sort,2014,5000,NULL
+63,Mustang,Ford,Sort,2013,5000,NULL
+64,Bronco,Ford,Sort,2019,6000,NULL
+65,Escape,Ford,Sort,2018,6000,NULL
+66,Octavia,Skoda,Sølv,2020,6000,NULL
+67,Kushaq,Skoda,Orange,2020,6000,NULL

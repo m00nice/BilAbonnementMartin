@@ -1,0 +1,1009 @@
+cityID,cityName,cityZipcode
+2890,"Høje Taastrup",800
+2891,"København C",877
+2892,"Sjælland USF P",892
+2893,"Sjælland USF B",893
+2896,"København C",900
+2897,"København C",910
+2903,"København C",929
+2905,"København C",999
+2906,"København K",1001
+2907,"København K",1002
+2908,"København K",1003
+2909,"København K",1004
+2910,"København K",1005
+2911,"København K",1006
+2912,"København K",1007
+2913,"København K",1008
+2914,"København K",1009
+2915,"København K",1010
+2916,"København K",1011
+2917,"København K",1012
+2918,"København K",1013
+2919,"København K",1014
+2920,"København K",1015
+2921,"København K",1016
+2922,"København K",1017
+2923,"København K",1018
+2924,"København K",1019
+2925,"København K",1020
+2926,"København K",1021
+2927,"København K",1022
+2928,"København K",1023
+2929,"København K",1024
+2930,"København K",1025
+2931,"København K",1026
+2932,"København K",1045
+2933,"København K",1050
+2934,"København K",1051
+2935,"København K",1052
+2936,"København K",1053
+2937,"København K",1054
+2938,"København K",1055
+2940,"København K",1056
+2941,"København K",1057
+2942,"København K",1058
+2943,"København K",1059
+2944,"København K",1060
+2945,"København K",1061
+2946,"København K",1062
+2947,"København K",1063
+2948,"København K",1064
+2949,"København K",1065
+2950,"København K",1066
+2951,"København K",1067
+2952,"København K",1068
+2953,"København K",1069
+2954,"København K",1070
+2955,"København K",1071
+2956,"København K",1072
+2957,"København K",1073
+2958,"København K",1074
+2959,"København K",1092
+2960,"København K",1093
+2961,"København K",1095
+2962,"København K",1098
+2963,"København K",1100
+2964,"København K",1101
+2965,"København K",1102
+2966,"København K",1103
+2967,"København K",1104
+2968,"København K",1105
+2969,"København K",1106
+2970,"København K",1107
+2971,"København K",1110
+2972,"København K",1111
+2973,"København K",1112
+2974,"København K",1113
+2975,"København K",1114
+2976,"København K",1115
+2977,"København K",1116
+2978,"København K",1117
+2979,"København K",1118
+2980,"København K",1119
+2981,"København K",1120
+2982,"København K",1121
+2983,"København K",1122
+2984,"København K",1123
+2985,"København K",1124
+2986,"København K",1125
+2987,"København K",1126
+2988,"København K",1127
+2989,"København K",1128
+2990,"København K",1129
+2991,"København K",1130
+2992,"København K",1131
+2993,"København K",1140
+2994,"København K",1147
+2995,"København K",1148
+2996,"København K",1150
+2997,"København K",1151
+2998,"København K",1152
+2999,"København K",1153
+3000,"København K",1154
+3001,"København K",1155
+3002,"København K",1156
+3003,"København K",1157
+3004,"København K",1158
+3005,"København K",1159
+3006,"København K",1160
+3007,"København K",1161
+3008,"København K",1162
+3009,"København K",1164
+3010,"København K",1165
+3012,"København K",1166
+3013,"København K",1167
+3014,"København K",1168
+3015,"København K",1169
+3016,"København K",1170
+3017,"København K",1171
+3018,"København K",1172
+3019,"København K",1173
+3020,"København K",1174
+3021,"København K",1175
+3022,"København K",1200
+3023,"København K",1201
+3024,"København K",1202
+3025,"København K",1203
+3026,"København K",1204
+3027,"København K",1205
+3028,"København K",1206
+3029,"København K",1207
+3030,"København K",1208
+3031,"København K",1209
+3032,"København K",1210
+3033,"København K",1211
+3034,"København K",1212
+3035,"København K",1213
+3036,"København K",1214
+3037,"København K",1215
+3038,"København K",1216
+3039,"København K",1217
+3040,"København K",1218
+3046,"København K",1219
+3047,"København K",1220
+3048,"København K",1221
+3049,"København K",1240
+3050,"København K",1250
+3051,"København K",1251
+3052,"København K",1252
+3053,"København K",1253
+3054,"København K",1254
+3055,"København K",1255
+3056,"København K",1256
+3057,"København K",1257
+3058,"København K",1259
+3060,"København K",1260
+3061,"København K",1261
+3062,"København K",1263
+3064,"København K",1264
+3065,"København K",1265
+3066,"København K",1266
+3067,"København K",1267
+3068,"København K",1268
+3069,"København K",1270
+3070,"København K",1271
+3071,"København K",1300
+3072,"København K",1301
+3073,"København K",1302
+3074,"København K",1303
+3075,"København K",1304
+3076,"København K",1306
+3077,"København K",1307
+3079,"København K",1308
+3080,"København K",1309
+3081,"København K",1310
+3082,"København K",1311
+3083,"København K",1312
+3084,"København K",1313
+3085,"København K",1314
+3086,"København K",1315
+3087,"København K",1316
+3088,"København K",1317
+3089,"København K",1318
+3090,"København K",1319
+3091,"København K",1320
+3092,"København K",1321
+3093,"København K",1322
+3094,"København K",1323
+3095,"København K",1324
+3096,"København K",1325
+3097,"København K",1326
+3098,"København K",1327
+3099,"København K",1328
+3100,"København K",1329
+3101,"København K",1350
+3102,"København K",1352
+3103,"København K",1353
+3104,"København K",1354
+3105,"København K",1355
+3106,"København K",1356
+3107,"København K",1357
+3108,"København K",1358
+3109,"København K",1359
+3111,"København K",1360
+3112,"København K",1361
+3114,"København K",1362
+3115,"København K",1363
+3116,"København K",1364
+3117,"København K",1365
+3118,"København K",1366
+3119,"København K",1367
+3120,"København K",1368
+3121,"København K",1369
+3122,"København K",1370
+3123,"København K",1371
+3124,"København K",1400
+3126,"København K",1401
+3127,"København K",1402
+3132,"København K",1403
+3133,"København K",1406
+3134,"København K",1407
+3135,"København K",1408
+3136,"København K",1409
+3137,"København K",1410
+3138,"København K",1411
+3140,"København K",1412
+3141,"København K",1413
+3142,"København K",1414
+3143,"København K",1415
+3144,"København K",1416
+3145,"København K",1417
+3146,"København K",1418
+3147,"København K",1419
+3148,"København K",1420
+3149,"København K",1421
+3150,"København K",1422
+3151,"København K",1423
+3152,"København K",1424
+3153,"København K",1425
+3154,"København K",1426
+3155,"København K",1427
+3156,"København K",1428
+3157,"København K",1429
+3158,"København K",1430
+3159,"København K",1432
+3162,"København K",1433
+3169,"København K",1434
+3171,"København K",1435
+3172,"København K",1436
+3178,"København K",1437
+3190,"København K",1438
+3195,"København K",1439
+3210,"København K",1440
+3221,"København K",1441
+3224,"København K",1448
+3225,"København K",1450
+3226,"København K",1451
+3227,"København K",1452
+3228,"København K",1453
+3229,"København K",1454
+3230,"København K",1455
+3231,"København K",1456
+3232,"København K",1457
+3233,"København K",1458
+3234,"København K",1459
+3235,"København K",1460
+3236,"København K",1461
+3237,"København K",1462
+3238,"København K",1463
+3239,"København K",1464
+3240,"København K",1465
+3241,"København K",1466
+3242,"København K",1467
+3243,"København K",1468
+3244,"København K",1470
+3245,"København K",1471
+3246,"København K",1472
+3247,"København K",1473
+3248,"København V",1500
+3249,"København V",1501
+3250,"København V",1502
+3251,"København V",1503
+3252,"København V",1504
+3253,"København V",1505
+3254,"København V",1506
+3255,"København V",1507
+3256,"København V",1508
+3257,"København V",1509
+3258,"København V",1510
+3261,"København V",1532
+3262,"København V",1533
+3263,"København V",1550
+3265,"København V",1551
+3266,"København V",1552
+3267,"København V",1553
+3269,"København V",1554
+3270,"København V",1555
+3271,"København V",1556
+3272,"København V",1557
+3273,"København V",1558
+3274,"København V",1559
+3275,"København V",1560
+3276,"København V",1561
+3278,"København V",1562
+3279,"København V",1563
+3280,"København V",1564
+3281,"København V",1567
+3282,"København V",1568
+3283,"København V",1569
+3284,"København V",1570
+3286,"København V",1571
+3287,"København V",1572
+3288,"København V",1573
+3289,"København V",1574
+3290,"København V",1575
+3291,"København V",1576
+3292,"København V",1577
+3295,"København V",1592
+3296,"København V",1599
+3297,"København V",1600
+3298,"København V",1601
+3299,"København V",1602
+3300,"København V",1603
+3301,"København V",1604
+3302,"København V",1605
+3303,"København V",1606
+3304,"København V",1607
+3305,"København V",1608
+3306,"København V",1609
+3307,"København V",1610
+3308,"København V",1611
+3309,"København V",1612
+3310,"København V",1613
+3311,"København V",1614
+3312,"København V",1615
+3313,"København V",1616
+3314,"København V",1617
+3315,"København V",1618
+3316,"København V",1619
+3317,"København V",1620
+3319,"København V",1621
+3320,"København V",1622
+3321,"København V",1623
+3322,"København V",1624
+3323,"København V",1630
+3324,"København V",1631
+3325,"København V",1632
+3326,"København V",1633
+3327,"København V",1634
+3328,"København V",1635
+3329,"København V",1650
+3330,"København V",1651
+3331,"København V",1652
+3332,"København V",1653
+3333,"København V",1654
+3334,"København V",1655
+3335,"København V",1656
+3336,"København V",1657
+3337,"København V",1658
+3338,"København V",1659
+3339,"København V",1660
+3341,"København V",1661
+3342,"København V",1662
+3343,"København V",1663
+3344,"København V",1664
+3345,"København V",1665
+3346,"København V",1666
+3347,"København V",1667
+3348,"København V",1668
+3349,"København V",1669
+3350,"København V",1670
+3351,"København V",1671
+3353,"København V",1672
+3354,"København V",1673
+3355,"København V",1674
+3356,"København V",1675
+3357,"København V",1676
+3358,"København V",1677
+3359,"København V",1699
+3360,"København V",1700
+3361,"København V",1701
+3362,"København V",1702
+3363,"København V",1703
+3364,"København V",1704
+3365,"København V",1705
+3366,"København V",1706
+3367,"København V",1707
+3368,"København V",1708
+3369,"København V",1709
+3370,"København V",1710
+3371,"København V",1711
+3373,"København V",1712
+3374,"København V",1714
+3375,"København V",1715
+3376,"København V",1716
+3377,"København V",1717
+3378,"København V",1718
+3379,"København V",1719
+3380,"København V",1720
+3381,"København V",1721
+3382,"København V",1722
+3383,"København V",1723
+3384,"København V",1724
+3385,"København V",1725
+3386,"København V",1726
+3387,"København V",1727
+3388,"København V",1728
+3389,"København V",1729
+3390,"København V",1730
+3391,"København V",1731
+3392,"København V",1732
+3393,"København V",1733
+3394,"København V",1734
+3395,"København V",1735
+3396,"København V",1736
+3397,"København V",1737
+3398,"København V",1738
+3399,"København V",1739
+3400,"København V",1749
+3401,"København V",1750
+3402,"København V",1751
+3403,"København V",1752
+3404,"København V",1753
+3405,"København V",1754
+3406,"København V",1755
+3407,"København V",1756
+3408,"København V",1757
+3409,"København V",1758
+3410,"København V",1759
+3411,"København V",1760
+3412,"København V",1761
+3413,"København V",1762
+3414,"København V",1763
+3415,"København V",1764
+3416,"København V",1765
+3417,"København V",1766
+3418,"København V",1770
+3419,"København V",1771
+3420,"København V",1772
+3421,"København V",1773
+3422,"København V",1774
+3423,"København V",1775
+3424,"København V",1777
+3425,"København V",1780
+3426,"København V",1782
+3427,"København V",1785
+3428,"København V",1786
+3429,"København V",1787
+3430,"København V",1790
+3431,"København V",1799
+3443,"Frederiksberg C",1800
+3444,"Frederiksberg C",1801
+3445,"Frederiksberg C",1802
+3446,"Frederiksberg C",1803
+3447,"Frederiksberg C",1804
+3448,"Frederiksberg C",1805
+3449,"Frederiksberg C",1806
+3450,"Frederiksberg C",1807
+3451,"Frederiksberg C",1808
+3452,"Frederiksberg C",1809
+3453,"Frederiksberg C",1810
+3454,"Frederiksberg C",1811
+3455,"Frederiksberg C",1812
+3456,"Frederiksberg C",1813
+3457,"Frederiksberg C",1814
+3458,"Frederiksberg C",1815
+3459,"Frederiksberg C",1816
+3460,"Frederiksberg C",1817
+3461,"Frederiksberg C",1818
+3462,"Frederiksberg C",1819
+3463,"Frederiksberg C",1820
+3464,"Frederiksberg C",1822
+3465,"Frederiksberg C",1823
+3466,"Frederiksberg C",1824
+3467,"Frederiksberg C",1825
+3468,"Frederiksberg C",1826
+3469,"Frederiksberg C",1827
+3470,"Frederiksberg C",1828
+3471,"Frederiksberg C",1829
+3472,"Frederiksberg C",1835
+3473,"Frederiksberg C",1850
+3474,"Frederiksberg C",1851
+3475,"Frederiksberg C",1852
+3476,"Frederiksberg C",1853
+3477,"Frederiksberg C",1854
+3478,"Frederiksberg C",1855
+3479,"Frederiksberg C",1856
+3480,"Frederiksberg C",1857
+3481,"Frederiksberg C",1860
+3482,"Frederiksberg C",1861
+3483,"Frederiksberg C",1862
+3484,"Frederiksberg C",1863
+3485,"Frederiksberg C",1864
+3486,"Frederiksberg C",1865
+3487,"Frederiksberg C",1866
+3488,"Frederiksberg C",1867
+3489,"Frederiksberg C",1868
+3490,"Frederiksberg C",1870
+3491,"Frederiksberg C",1871
+3492,"Frederiksberg C",1872
+3493,"Frederiksberg C",1873
+3494,"Frederiksberg C",1874
+3495,"Frederiksberg C",1875
+3496,"Frederiksberg C",1876
+3497,"Frederiksberg C",1877
+3498,"Frederiksberg C",1878
+3499,"Frederiksberg C",1879
+3500,"Frederiksberg C",1900
+3501,"Frederiksberg C",1901
+3502,"Frederiksberg C",1902
+3503,"Frederiksberg C",1903
+3504,"Frederiksberg C",1904
+3505,"Frederiksberg C",1905
+3506,"Frederiksberg C",1906
+3507,"Frederiksberg C",1908
+3508,"Frederiksberg C",1909
+3509,"Frederiksberg C",1910
+3510,"Frederiksberg C",1911
+3511,"Frederiksberg C",1912
+3512,"Frederiksberg C",1913
+3513,"Frederiksberg C",1914
+3514,"Frederiksberg C",1915
+3515,"Frederiksberg C",1916
+3516,"Frederiksberg C",1917
+3517,"Frederiksberg C",1920
+3518,"Frederiksberg C",1921
+3519,"Frederiksberg C",1922
+3520,"Frederiksberg C",1923
+3521,"Frederiksberg C",1924
+3522,"Frederiksberg C",1925
+3523,"Frederiksberg C",1926
+3524,"Frederiksberg C",1927
+3525,"Frederiksberg C",1928
+3526,"Frederiksberg C",1931
+3527,"Frederiksberg C",1950
+3528,"Frederiksberg C",1951
+3529,"Frederiksberg C",1952
+3530,"Frederiksberg C",1953
+3531,"Frederiksberg C",1954
+3532,"Frederiksberg C",1955
+3533,"Frederiksberg C",1956
+3534,"Frederiksberg C",1957
+3535,"Frederiksberg C",1958
+3536,"Frederiksberg C",1959
+3537,"Frederiksberg C",1960
+3538,"Frederiksberg C",1961
+3539,"Frederiksberg C",1962
+3540,"Frederiksberg C",1963
+3541,"Frederiksberg C",1964
+3542,"Frederiksberg C",1965
+3543,"Frederiksberg C",1966
+3544,"Frederiksberg C",1967
+3545,"Frederiksberg C",1970
+3546,"Frederiksberg C",1971
+3547,"Frederiksberg C",1972
+3548,"Frederiksberg C",1973
+3549,"Frederiksberg C",1974
+3550,Frederiksberg,2000
+3551,"København Ø",2100
+3552,Nordhavn,2150
+3553,"København N",2200
+3554,"København S",2300
+3555,"København NV",2400
+3556,Grønland,2412
+3557,"København SV",2450
+3558,Valby,2500
+3559,Glostrup,2600
+3560,Brøndby,2605
+3561,Rødovre,2610
+3562,Albertslund,2620
+3563,Vallensbæk,2625
+3564,Taastrup,2630
+3565,IshÃ¸j,2635
+3566,Hedehusene,2640
+3567,"Spejdernes Lejr 2022",2644
+3568,Hvidovre,2650
+3569,"BrÃ¸ndby Strand",2660
+3570,"VallensbÃ¦k Strand",2665
+3571,Greve,2670
+3572,"SolrÃ¸d Strand",2680
+3573,Karlslunde,2690
+3574,BrÃ¸nshÃ¸j,2700
+3575,VanlÃ¸se,2720
+3576,Herlev,2730
+3577,Skovlunde,2740
+3578,Ballerup,2750
+3579,MÃ¥lÃ¸v,2760
+3580,SmÃ¸rum,2765
+3581,Kastrup,2770
+3582,DragÃ¸r,2791
+3583,"Kongens Lyngby",2800
+3584,Gentofte,2820
+3585,Virum,2830
+3586,Holte,2840
+3587,NÃ¦rum,2850
+3588,SÃ¸borg,2860
+3589,DyssegÃ¥rd,2870
+3590,BagsvÃ¦rd,2880
+3591,Hellerup,2900
+3592,Charlottenlund,2920
+3593,Klampenborg,2930
+3594,Skodsborg,2942
+3595,VedbÃ¦k,2950
+3596,"Rungsted Kyst",2960
+3597,HÃ¸rsholm,2970
+3598,Kokkedal,2980
+3599,NivÃ¥,2990
+3600,HelsingÃ¸r,3000
+3601,HumlebÃ¦k,3050
+3602,EspergÃ¦rde,3060
+3603,Snekkersten,3070
+3604,TikÃ¸b,3080
+3605,HornbÃ¦k,3100
+3606,DronningmÃ¸lle,3120
+3607,Ã…lsgÃ¥rde,3140
+3608,HellebÃ¦k,3150
+3609,Helsinge,3200
+3610,Vejby,3210
+3611,Tisvildeleje,3220
+3612,GrÃ¦sted,3230
+3613,Gilleleje,3250
+3614,FrederiksvÃ¦rk,3300
+3615,Ã˜lsted,3310
+3616,SkÃ¦vinge,3320
+3617,GÃ¸rlÃ¸se,3330
+3618,Liseleje,3360
+3619,Melby,3370
+3620,Hundested,3390
+3621,HillerÃ¸d,3400
+3622,AllerÃ¸d,3450
+3623,BirkerÃ¸d,3460
+3624,Fredensborg,3480
+3625,KvistgÃ¥rd,3490
+3626,VÃ¦rlÃ¸se,3500
+3627,Farum,3520
+3628,Lynge,3540
+3629,Slangerup,3550
+3630,Frederikssund,3600
+3631,JÃ¦gerspris,3630
+3632,Ã˜lstykke,3650
+3633,StenlÃ¸se,3660
+3634,"VeksÃ¸ SjÃ¦lland",3670
+3635,RÃ¸nne,3700
+3636,Aakirkeby,3720
+3637,NexÃ¸,3730
+3638,Svaneke,3740
+3639,Ã˜stermarie,3751
+3640,Gudhjem,3760
+3641,Allinge,3770
+3642,Klemensker,3782
+3643,Hasle,3790
+3644,Roskilde,4000
+3645,Tune,4030
+3646,Jyllinge,4040
+3647,Skibby,4050
+3648,"Kirke SÃ¥by",4060
+3649,"Kirke Hyllinge",4070
+3650,Ringsted,4100
+3651,Ringsted,4129
+3652,"Viby SjÃ¦lland",4130
+3653,Borup,4140
+3654,Herlufmagle,4160
+3655,GlumsÃ¸,4171
+3656,Fjenneslev,4173
+3657,"Jystrup Midtsj",4174
+3658,SorÃ¸,4180
+3659,"Munke Bjergby",4190
+3660,Slagelse,4200
+3661,KorsÃ¸r,4220
+3662,SkÃ¦lskÃ¸r,4230
+3663,Vemmelev,4241
+3664,Boeslunde,4242
+3665,Rude,4243
+3666,AgersÃ¸,4244
+3667,OmÃ¸,4245
+3668,Fuglebjerg,4250
+3669,Dalmose,4261
+3670,Sandved,4262
+3671,HÃ¸ng,4270
+3672,GÃ¸rlev,4281
+3673,"Ruds Vedby",4291
+3674,Dianalund,4293
+3675,Stenlille,4295
+3676,Nyrup,4296
+3677,HolbÃ¦k,4300
+3678,OrÃ¸,4305
+3679,Lejre,4320
+3680,HvalsÃ¸,4330
+3681,TÃ¸llÃ¸se,4340
+3682,UgerlÃ¸se,4350
+3683,"Kirke Eskilstrup",4360
+3684,"Store MerlÃ¸se",4370
+3685,VipperÃ¸d,4390
+3686,Kalundborg,4400
+3687,Regstrup,4420
+3688,MÃ¸rkÃ¸v,4440
+3689,Jyderup,4450
+3690,Snertinge,4460
+3691,SvebÃ¸lle,4470
+3692,"Store Fuglede",4480
+3693,"Jerslev SjÃ¦lland",4490
+3694,"NykÃ¸bing Sj",4500
+3695,Svinninge,4520
+3696,Gislinge,4532
+3697,HÃ¸rve,4534
+3698,FÃ¥revejle,4540
+3699,AsnÃ¦s,4550
+3700,Vig,4560
+3701,Grevinge,4571
+3702,"NÃ¸rre Asmindrup",4572
+3703,HÃ¸jby,4573
+3704,RÃ¸rvig,4581
+3705,"SjÃ¦llands Odde",4583
+3706,FÃ¸llenslev,4591
+3707,SejerÃ¸,4592
+3708,Eskebjerg,4593
+3709,KÃ¸ge,4600
+3710,Gadstrup,4621
+3711,Havdrup,4622
+3712,"Lille Skensved",4623
+3713,BjÃ¦verskov,4632
+3714,Faxe,4640
+3715,HÃ¥rlev,4652
+3716,Karise,4653
+3717,"Faxe Ladeplads",4654
+3718,"Store Heddinge",4660
+3719,StrÃ¸by,4671
+3720,Klippinge,4672
+3721,"RÃ¸dvig Stevns",4673
+3722,HerfÃ¸lge,4681
+3723,Tureby,4682
+3724,RÃ¸nnede,4683
+3725,Holmegaard,4684
+3726,Haslev,4690
+3727,NÃ¦stved,4700
+3728,PrÃ¦stÃ¸,4720
+3729,TappernÃ¸je,4733
+3730,Mern,4735
+3731,KarrebÃ¦ksminde,4736
+3732,Lundby,4750
+3733,Vordingborg,4760
+3734,Kalvehave,4771
+3735,LangebÃ¦k,4772
+3736,Stensved,4773
+3737,Stege,4780
+3738,Borre,4791
+3739,Askeby,4792
+3740,"BogÃ¸ By",4793
+3741,"NykÃ¸bing F",4800
+3742,"NÃ¸rre Alslev",4840
+3743,StubbekÃ¸bing,4850
+3744,Guldborg,4862
+3745,Eskilstrup,4863
+3746,Horbelev,4871
+3747,Idestrup,4872
+3748,VÃ¦ggerlÃ¸se,4873
+3749,Gedser,4874
+3750,Nysted,4880
+3751,"Toreby L",4891
+3752,Kettinge,4892
+3753,"Ã˜ster Ulslev",4894
+3754,Errindlev,4895
+3755,Nakskov,4900
+3756,Harpelunde,4912
+3757,Horslunde,4913
+3758,SÃ¸llested,4920
+3759,Maribo,4930
+3760,Bandholm,4941
+3761,"AskÃ¸ og LilleÃ¸",4942
+3762,"Torrig L",4943
+3763,FejÃ¸,4944
+3764,FemÃ¸,4945
+3765,NÃ¸rreballe,4951
+3766,Stokkemarke,4952
+3767,Vesterborg,4953
+3768,Holeby,4960
+3769,RÃ¸dby,4970
+3770,Dannemare,4983
+3771,SakskÃ¸bing,4990
+3772,"MidtsjÃ¦lland USF P",4992
+3773,"Odense C",5000
+3774,"Odense C",5029
+3775,"Odense C",5100
+3776,"Odense V",5200
+3777,"Odense NV",5210
+3778,"Odense SÃ˜",5220
+3779,"Odense M",5230
+3780,"Odense NÃ˜",5240
+3781,"Odense SV",5250
+3782,"Odense S",5260
+3783,"Odense N",5270
+3784,Marslev,5290
+3785,Kerteminde,5300
+3786,Agedrup,5320
+3787,Munkebo,5330
+3788,Rynkeby,5350
+3789,Mesinge,5370
+3790,Dalby,5380
+3791,Martofte,5390
+3792,Bogense,5400
+3793,Otterup,5450
+3794,Morud,5462
+3795,Harndrup,5463
+3796,"Brenderup Fyn",5464
+3797,Asperup,5466
+3798,SÃ¸ndersÃ¸,5471
+3799,Veflinge,5474
+3800,Skamby,5485
+3801,Blommenslyst,5491
+3802,Vissenbjerg,5492
+3803,Middelfart,5500
+3804,Ullerslev,5540
+3805,Langeskov,5550
+3806,Aarup,5560
+3807,"NÃ¸rre Aaby",5580
+3808,Gelsted,5591
+3809,Ejby,5592
+3810,Faaborg,5600
+3811,LyÃ¸,5601
+3812,AvernakÃ¸,5602
+3813,BjÃ¸rnÃ¸,5603
+3814,Assens,5610
+3815,Glamsbjerg,5620
+3816,Ebberup,5631
+3817,Millinge,5642
+3818,Broby,5672
+3819,Haarby,5683
+3820,Tommerup,5690
+3821,Svendborg,5700
+3822,Ringe,5750
+3823,"Vester Skerninge",5762
+3824,Stenstrup,5771
+3825,KvÃ¦rndrup,5772
+3826,Ã…rslev,5792
+3827,Nyborg,5800
+3828,Ã˜rbÃ¦k,5853
+3829,Gislev,5854
+3830,Ryslinge,5856
+3831,"Ferritslev Fyn",5863
+3832,FrÃ¸rup,5871
+3833,Hesselager,5874
+3834,"SkÃ¥rup Fyn",5881
+3835,Vejstrup,5882
+3836,Oure,5883
+3837,Gudme,5884
+3838,"Gudbjerg Sydfyn",5892
+3839,RudkÃ¸bing,5900
+3840,Humble,5932
+3841,Bagenkop,5935
+3842,StrynÃ¸,5943
+3843,TranekÃ¦r,5953
+3844,Marstal,5960
+3845,Birkholm,5965
+3846,Ã†rÃ¸skÃ¸bing,5970
+3847,"SÃ¸by Ã†rÃ¸",5985
+3848,Kolding,6000
+3849,Egtved,6040
+3850,Almind,6051
+3851,Viuf,6052
+3852,Jordrup,6064
+3853,Christiansfeld,6070
+3854,Bjert,6091
+3855,"SÃ¸nder Stenderup",6092
+3856,SjÃ¸lund,6093
+3857,Hejls,6094
+3858,Haderslev,6100
+3859,Aabenraa,6200
+3860,BarsÃ¸,6210
+3861,RÃ¸dekro,6230
+3862,LÃ¸gumkloster,6240
+3863,Bredebro,6261
+3864,TÃ¸nder,6270
+3865,HÃ¸jer,6280
+3866,GrÃ¥sten,6300
+3867,Broager,6310
+3868,Egernsund,6320
+3869,Padborg,6330
+3870,KrusÃ¥,6340
+3871,Tinglev,6360
+3872,Bylderup-Bov,6372
+3873,Bolderslev,6392
+3874,SÃ¸nderborg,6400
+3875,Nordborg,6430
+3876,Augustenborg,6440
+3877,Sydals,6470
+3878,Vojens,6500
+3879,Gram,6510
+3880,Toftlund,6520
+3881,Agerskov,6534
+3882,"Branderup J",6535
+3883,Bevtoft,6541
+3884,Sommersted,6560
+3885,Vamdrup,6580
+3886,Vejen,6600
+3887,Gesten,6621
+3888,BÃ¦kke,6622
+3889,Vorbasse,6623
+3890,RÃ¸dding,6630
+3891,Lunderskov,6640
+3892,BrÃ¸rup,6650
+3893,Lintrup,6660
+3894,Holsted,6670
+3895,Hovborg,6682
+3896,FÃ¸vling,6683
+3897,GÃ¸rding,6690
+3898,Esbjerg,6700
+3899,Esbjerg,6701
+3900,"Esbjerg Ã˜",6705
+3901,"Esbjerg V",6710
+3902,"Esbjerg N",6715
+3903,FanÃ¸,6720
+3904,TjÃ¦reborg,6731
+3905,Bramming,6740
+3906,Glejbjerg,6752
+3907,AgerbÃ¦k,6753
+3908,Ribe,6760
+3909,Gredstedbro,6771
+3910,SkÃ¦rbÃ¦k,6780
+3911,RÃ¸mÃ¸,6792
+3912,Varde,6800
+3913,Ã…rre,6818
+3914,Ansager,6823
+3915,"NÃ¸rre Nebel",6830
+3916,OksbÃ¸l,6840
+3917,"Janderup Vestj",6851
+3918,Billum,6852
+3919,"Vejers Strand",6853
+3920,Henne,6854
+3921,Outrup,6855
+3922,BlÃ¥vand,6857
+3923,Tistrup,6862
+3924,Ã˜lgod,6870
+3925,Tarm,6880
+3926,Hemmet,6893
+3927,Skjern,6900
+3928,VidebÃ¦k,6920
+3929,KibÃ¦k,6933
+3930,"Lem St",6940
+3931,RingkÃ¸bing,6950
+3932,"Hvide Sande",6960
+3933,Spjald,6971
+3934,Ã˜rnhÃ¸j,6973
+3935,Tim,6980
+3936,Ulfborg,6990
+3937,Fredericia,7000
+3938,Fredericia,7007
+3939,"Taulov Pakkecenter",7017
+3940,"Pakker TLP",7018
+3941,Fredericia,7029
+3942,BÃ¸rkop,7080
+3943,Vejle,7100
+3944,"Vejle Ã˜st",7120
+3945,Juelsminde,7130
+3946,Stouby,7140
+3947,Barrit,7150
+3948,TÃ¸rring,7160
+3949,Uldum,7171
+3950,Vonge,7173
+3951,Bredsten,7182
+3952,RandbÃ¸l,7183
+3953,Vandel,7184
+3954,Billund,7190
+3955,Grindsted,7200
+3956,Hejnsvig,7250
+3957,"SÃ¸nder Omme",7260
+3958,Stakroge,7270
+3959,"SÃ¸nder Felding",7280
+3960,Jelling,7300
+3961,Gadbjerg,7321
+3962,Give,7323
+3963,Brande,7330
+3964,Ejstrupholm,7361
+3965,Hampen,7362
+3966,Herning,7400
+3967,Herning,7429
+3968,Ikast,7430
+3969,Bording,7441
+3970,Engesvang,7442
+3971,Sunds,7451
+3972,"Karup J",7470
+3973,Vildbjerg,7480
+3974,Aulum,7490
+3975,Holstebro,7500
+3976,Haderup,7540
+3977,SÃ¸rvad,7550
+3978,Hjerm,7560
+3979,Vemb,7570
+3980,Struer,7600
+3981,Lemvig,7620
+3982,BÃ¸vlingbjerg,7650
+3983,BÃ¦kmarksbro,7660
+3984,HarboÃ¸re,7673
+3985,ThyborÃ¸n,7680
+3986,Thisted,7700
+3987,Hanstholm,7730
+3988,FrÃ¸strup,7741
+3989,VeslÃ¸s,7742
+3990,Snedsted,7752
+3991,"Bedsted Thy",7755
+3992,"Hurup Thy",7760
+3993,Vestervig,7770
+3994,Thyholm,7790
+3995,Skive,7800
+3996,Vinderup,7830
+3997,HÃ¸jslev,7840
+3998,"Stoholm Jyll",7850
+3999,SpÃ¸ttrup,7860
+4000,Roslev,7870
+4001,Fur,7884
