@@ -19,7 +19,9 @@ public class CarService {
         ArrayList<Car> rentedCarList = new ArrayList<>();
 
         for (Reservation reservation: ReservationRepository.getAllReservation()) {
+            if(reservation.isValid()) {
                 rentedCarList.add(reservation.getCar());
+            }
         }
         return rentedCarList;
     }
@@ -71,9 +73,10 @@ public class CarService {
         ArrayList<Car> rentedCarList = getRentedCarList();
         double price = 0;
         for (Car car: rentedCarList) {
-            price += car.getDamagePrice();
+            price += car.getRentPrice();
         }
-        return price;
+        System.out.println(price);
+        return Math.round(price*100.0)/100.0;
     }
 
 

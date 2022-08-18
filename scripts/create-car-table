@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS `bilabonnementre`.`car` (
+    `carID` INT NOT NULL AUTO_INCREMENT,
+    `carName` VARCHAR(45) CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_0900_ai_ci' NOT NULL,
+    `carBrand` VARCHAR(45) CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_0900_ai_ci' NOT NULL,
+    `carColour` VARCHAR(45) CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_0900_ai_ci' NOT NULL,
+    `carVintage` INT NOT NULL,
+    `rentPrice` DOUBLE NOT NULL,
+    `damageID` INT NULL DEFAULT NULL,
+    PRIMARY KEY (`carID`),
+    UNIQUE INDEX `carID_UNIQUE` (`carID` ASC) INVISIBLE,
+    INDEX `damageID_idx` (`damageID` ASC) VISIBLE,
+    CONSTRAINT `damageID`
+    FOREIGN KEY (`damageID`)
+    REFERENCES `bilabonnementre`.`damage` (`damageID`))
+    ENGINE = InnoDB
+    AUTO_INCREMENT = 68
+    DEFAULT CHARACTER SET = utf8mb3

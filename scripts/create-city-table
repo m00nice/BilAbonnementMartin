@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS `bilabonnementre`.`cities` (
+    `cityID` INT NOT NULL AUTO_INCREMENT,
+    `cityName` VARCHAR(45) CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_0900_ai_ci' NOT NULL,
+    `cityZipcode` INT NOT NULL,
+    PRIMARY KEY (`cityID`),
+    UNIQUE INDEX `CityID_UNIQUE` (`cityID` ASC) VISIBLE,
+    UNIQUE INDEX `cityZipcode_UNIQUE` (`cityZipcode` ASC) VISIBLE)
+    ENGINE = InnoDB
+    AUTO_INCREMENT = 4002
+    DEFAULT CHARACTER SET = utf8mb3

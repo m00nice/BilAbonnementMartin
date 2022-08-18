@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS `bilabonnementre`.`customer` (
+    `customerID` INT NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(45) CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_0900_ai_ci' NOT NULL,
+    `email` VARCHAR(45) CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_0900_ai_ci' NOT NULL,
+    `phonenumber` VARCHAR(45) CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_0900_ai_ci' NOT NULL,
+    `streetAddress` VARCHAR(45) CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_0900_ai_ci' NOT NULL,
+    `cityID` INT NULL DEFAULT NULL,
+    `cpr_nr` VARCHAR(45) CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_0900_ai_ci' NOT NULL,
+    PRIMARY KEY (`customerID`),
+    UNIQUE INDEX `customerID_UNIQUE` (`customerID` ASC) VISIBLE,
+    UNIQUE INDEX `email_UNIQUE` (`email` ASC) VISIBLE,
+    UNIQUE INDEX `phonenumber_UNIQUE` (`phonenumber` ASC) VISIBLE,
+    UNIQUE INDEX `cpr_nr_UNIQUE` (`cpr_nr` ASC) VISIBLE,
+    INDEX `cityID_idx` (`cityID` ASC) VISIBLE,
+    CONSTRAINT `cityID`
+    FOREIGN KEY (`cityID`)
+    REFERENCES `bilabonnementre`.`cities` (`cityID`))
+    ENGINE = InnoDB
+    AUTO_INCREMENT = 15
+    DEFAULT CHARACTER SET = utf8mb3

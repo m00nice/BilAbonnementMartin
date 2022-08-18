@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS `bilabonnementre`.`reservation` (
+    `reservationID` INT NOT NULL AUTO_INCREMENT,
+    `carID` INT NOT NULL,
+    `customerID` INT NOT NULL,
+    `startDate` DATE NOT NULL,
+    `endDate` DATE NOT NULL,
+    `isValid` TINYINT NOT NULL,
+    PRIMARY KEY (`reservationID`),
+    UNIQUE INDEX `reservationID_UNIQUE` (`reservationID` ASC) VISIBLE,
+    INDEX `customerID_idx` (`customerID` ASC) VISIBLE,
+    INDEX `carID` (`carID` ASC) VISIBLE,
+    CONSTRAINT `carID`
+    FOREIGN KEY (`carID`)
+    REFERENCES `bilabonnementre`.`car` (`carID`),
+    CONSTRAINT `customerID`
+    FOREIGN KEY (`customerID`)
+    REFERENCES `bilabonnementre`.`customer` (`customerID`))
+    ENGINE = InnoDB
+    AUTO_INCREMENT = 3
+    DEFAULT CHARACTER SET = utf8mb3

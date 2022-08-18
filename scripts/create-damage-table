@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `bilabonnementre`.`damage` (
+    `damageID` INT NOT NULL AUTO_INCREMENT,
+    `damage` VARCHAR(45) CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_0900_ai_ci' NOT NULL,
+    `damagePrice` DOUBLE NOT NULL DEFAULT '0',
+    PRIMARY KEY (`damageID`),
+    UNIQUE INDEX `damageID_UNIQUE` (`damageID` ASC) VISIBLE)
+    ENGINE = InnoDB
+    AUTO_INCREMENT = 4
+    DEFAULT CHARACTER SET = utf8mb3

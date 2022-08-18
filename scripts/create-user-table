@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS `bilabonnementre`.`user` (
+    `userID` INT NOT NULL AUTO_INCREMENT,
+    `username` VARCHAR(45) CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_0900_ai_ci' NOT NULL,
+    `password` VARCHAR(45) CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_0900_ai_ci' NOT NULL,
+    `role` VARCHAR(45) CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_0900_ai_ci' NOT NULL,
+    PRIMARY KEY (`userID`),
+    UNIQUE INDEX `userID_UNIQUE` (`userID` ASC) VISIBLE,
+    UNIQUE INDEX `username_UNIQUE` (`username` ASC) VISIBLE)
+    ENGINE = InnoDB
+    AUTO_INCREMENT = 5
+    DEFAULT CHARACTER SET = utf8mb3

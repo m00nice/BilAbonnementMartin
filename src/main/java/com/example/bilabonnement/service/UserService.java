@@ -15,7 +15,6 @@ public class UserService {
     public static boolean checkBruger(String username, String password) {
         ArrayList<User> userList = (ArrayList<User>) UserRepository.getAllUsers();
         for (User user: userList) {
-            System.out.println(user.getPassword()+"   "+user.getUsername());
             if(user.getUsername().equals(username) && user.getPassword().equals(password)){
                 return true;}
         }
