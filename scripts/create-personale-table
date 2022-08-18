@@ -1,9 +1,0 @@
-CREATE TABLE `personale` (
-  `brugernavn` varchar(45) NOT NULL,
-  `password` varchar(45) NOT NULL,
-  `id` int NOT NULL AUTO_INCREMENT,
-  `rolle` varchar(45) NOT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `brugernavn_UNIQUE` (`brugernavn`),
-  UNIQUE KEY `id_UNIQUE` (`id`)
-);

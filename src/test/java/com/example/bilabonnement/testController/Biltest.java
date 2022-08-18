@@ -19,7 +19,7 @@ public class Biltest {
         TestService testService = new TestService();
 
         //Act
-        Car car = new Car(2011, "Skoda", "Citigo", "Hvid", 1, 1, "Mangel på 1 hjul", 2300, 3000);
+        Car car = new Car(2011, "Skoda", "Citigo", "Hvid", 1, "Mangel på 1 hjul", 2300, 3000);
         boolean forventet = true;
 
         //Assert

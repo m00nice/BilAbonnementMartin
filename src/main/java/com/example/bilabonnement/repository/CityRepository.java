@@ -22,14 +22,14 @@ public class CityRepository  extends Repository {
 
             while (rs.next()){
                 if (rs.getInt(1) == customerID){
-                    return new City(rs.getInt(1), rs.getString(2),rs.getInt(3) );
+                    return new City(rs.getString(2),rs.getInt(3) );
                 }
             }
         } catch (SQLException e) {
             System.out.println("Noget er gået galt i CustomerRepository -> getAllCustomers");
             e.printStackTrace();
         }
-        return null;
+        return new City("BY ER IKKE GODKENDT",404);
     }
 
 

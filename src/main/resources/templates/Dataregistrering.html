@@ -46,7 +46,7 @@ Forfatter: @Tobias Winkel
             <td th:text="${reservation.Car.carName}"></td>
             <td th:text="${reservation.Customer.name}"></td>
             <td th:text="${reservation.startDate}"><td>
-            <td th:text="${reservation.slutDate}"><td>
+            <td th:text="${reservation.endDate}"><td>
             <form action="/Dataregistrering/Valid" method="post">
                 <input type="hidden" name="reservationID" th:value="${reservation.reservationID}">
             <td><button type="submit" name="submit" value="submit" style="color: black; background-color: white">Invalider</button></td>

@@ -1,7 +1,9 @@
 package com.example.bilabonnement.service;
 
 import com.example.bilabonnement.model.Car;
+import com.example.bilabonnement.model.Reservation;
 import com.example.bilabonnement.repository.CarRepository;
+import com.example.bilabonnement.repository.ReservationRepository;
 
 import java.util.ArrayList;
 
@@ -16,10 +18,8 @@ public class CarService {
     public static ArrayList getRentedCarList(){
         ArrayList<Car> rentedCarList = new ArrayList<>();
 
-        for (Car car: CarRepository.getAllCars()) {
-            if (car.getCurrentCustomerId() > 0){
-                rentedCarList.add(car);
-            }
+        for (Reservation reservation: ReservationRepository.getAllReservation()) {
+                rentedCarList.add(reservation.getCar());
         }
         return rentedCarList;
     }

@@ -5,8 +5,7 @@ public class City {
     private String cityName;
     private int cityZipcode;
 
-    public City(int cityID, String cityName, int cityZipcode) {
-        this.cityID = cityID;
+    public City(String cityName, int cityZipcode) {
         this.cityName = cityName;
         this.cityZipcode = cityZipcode;
     }

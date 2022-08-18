@@ -12,6 +12,7 @@ import javax.servlet.http.HttpSession;
 @Controller
 public class UserController {
 
+
     @GetMapping("/")
     public String index(){return "index";}
 
@@ -21,16 +22,16 @@ public class UserController {
         String password = personaleData.getParameter("password");
         boolean token = UserService.checkBruger(username, password);
         if (token) {
-            String rolle = UserService.getRolle(username, password);
+            String role = UserService.getRole(username, password);
             session.setAttribute("isloggedin", true);
 
-            if (rolle.equals("DR")) {
+            if (role.equals("DR")) {
                 return "redirect:http://localhost:8080/Dataregistrering/Invalid";
             }
-            if (rolle.equals("FU")) {
+            if (role.equals("FU")) {
                 return "redirect:http://localhost:8080/Forretningsudvikling";
             }
-            if (rolle.equals("SU")) {
+            if (role.equals("SU")) {
                 return "redirect:http://localhost:8080/SkadeOgUdbedring/Biler-med-skader";
             }
         }

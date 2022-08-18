@@ -7,18 +7,16 @@ public class Car {
     private String carBrand;
     private String carColour;
     private int carVintage;
-    private int currentCustomerId;
     private double rentPrice;
     private String damage;
     private double damagePrice;
 
-    public Car(int carID, String carName, String carBrand, String carColour, int carVintage, int currentCustomerId, String damage, double damagePrice, double rentPrice) {
+    public Car(int carID, String carName, String carBrand, String carColour, int carVintage, String damage, double damagePrice, double rentPrice) {
         this.carID = carID;
         this.carName = carName;
         this.carBrand = carBrand;
         this.carColour = carColour;
         this.carVintage = carVintage;
-        this.currentCustomerId = currentCustomerId;
         this.damage = damage;
         this.damagePrice = damagePrice;
         this.rentPrice = rentPrice;
@@ -70,14 +68,6 @@ public class Car {
 
     public void setCarVintage(int carVintage) {
         this.carVintage = carVintage;
-    }
-
-    public int getCurrentCustomerId() {
-        return currentCustomerId;
-    }
-
-    public void setCurrentCustomerId(int currentCustomerId) {
-        this.currentCustomerId = currentCustomerId;
     }
 
     public String getDamage() {

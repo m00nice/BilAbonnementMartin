@@ -45,10 +45,10 @@
         <tr th:each="reservation:${invalidliste}">
             <input class="AccordionInput" type="checkbox" id="${reservation.bilID}">
             <label class="AccordionLabel" for="${reservation.bilID}">
-                <td th:text="${reservation.bilID}"></td>
-                <td th:text="${reservation.kundeID}"></td>
-                <td th:text="${reservation.startDato}"><td>
-                <td th:text="${reservation.slutDato}"><td>
+                <td th:text="${reservation.car.carName}"></td>
+                <td th:text="${reservation.customer.name}"></td>
+                <td th:text="${reservation.startDate}"><td>
+                <td th:text="${reservation.endDate}"><td>
                 <form action="/Dataregistrering/Invalid" method="post">
                     <input type="hidden" name="reservationID" th:value="${reservation.reservationID}">
                 <td><button type="submit" name="submit" value="submit" style="color: black; background-color: white">Valider</button></td>

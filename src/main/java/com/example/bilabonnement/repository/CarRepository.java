@@ -30,9 +30,8 @@ public class CarRepository extends Repository {
                         rs.getString(3),
                         rs.getString(4),
                         rs.getInt(5),
-                        rs.getInt(7),
-                        DamageRepository.getCarDamage(rs.getInt(8)).getDamage(),
-                        DamageRepository.getCarDamage(rs.getInt(8)).getDamagePrice(),
+                        DamageRepository.getCarDamage(rs.getInt(7)).getDamage(),
+                        DamageRepository.getCarDamage(rs.getInt(7)).getDamagePrice(),
                         rs.getDouble(6)
                 );
                 allCars.add(temp);

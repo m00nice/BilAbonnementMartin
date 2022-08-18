@@ -47,11 +47,11 @@ public class ReservationService {
     }
 
     public static void changeValidationReservation(Reservation reservation){
-        if(reservation.isValid()){reservation.setValid(false); ReservationRepository.executeSQLsyntax("UPDATE `bilabonnement`.`reservation` SET `valid` = '-2' WHERE (`reservationID` = '"+reservation.getReservationID()+"')");}
-        else{reservation.setValid(true); ReservationRepository.executeSQLsyntax("UPDATE `bilabonnement`.`reservation` SET `valid` = '2' WHERE (`reservationID` = '"+reservation.getReservationID()+"')");}
+        if(reservation.isValid()){reservation.setValid(false); ReservationRepository.executeSQLsyntax("UPDATE `bilabonnementre`.`reservation` SET `isValid` = '-2' WHERE (`reservationID` = '"+reservation.getReservationID()+"')");}
+        else{reservation.setValid(true); ReservationRepository.executeSQLsyntax("UPDATE `bilabonnementre`.`reservation` SET `isValid` = '2' WHERE (`reservationID` = '"+reservation.getReservationID()+"')");}
     }
     public static void deleteReservation(int reservationID){
-        ReservationRepository.executeSQLsyntax("DELETE FROM `bilabonnement`.`reservation` WHERE (`reservationID` = '"+reservationID+"');");
+        ReservationRepository.executeSQLsyntax("DELETE FROM `bilabonnementre`.`reservation` WHERE (`reservationID` = '"+reservationID+"');");
     }
 
 }

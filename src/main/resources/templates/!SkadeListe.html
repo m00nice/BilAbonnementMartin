@@ -40,9 +40,9 @@ Forfatter: @Martin Anberg
     <table style="width: 700px">
         <tr>
             <th>Bil-ID</th>
-            <th>Årgang</th>
-            <th>Mærke</th>
             <th>Model</th>
+            <th>Mærke</th>
+            <th>Årgang</th>
             <th>Farve</th>
             <th>Indtast Fejl</th>
             <th>Indtast Pris</th>
@@ -50,11 +50,11 @@ Forfatter: @Martin Anberg
         </tr>
         <tr th:each="car:${undamagedList}">
             <td th:text="${car.carID}"></td>
-            <td th:text="${car.carVintage}"></td>
-            <td th:text="${car.carBrand}"></td>
             <td th:text="${car.carName}"></td>
+            <td th:text="${car.carBrand}"></td>
+            <td th:text="${car.carVintage}"></td>
             <td th:text="${car.carColour}"></td>
-            <form action="/SkadeOgUdbedring/Biler-uden-skader?" method="post">
+            <form action="/SkadeOgUdbedring/Biler-uden-skader" method="post">
                 <td><label for="damage"></label><input type="text" id="damage" name="fejl"></td>
                 <td><label for="price"></label><input type="number" id="price" name="pris"></td>
                 <input type="hidden" name="carID" th:value="${car.carID}">
