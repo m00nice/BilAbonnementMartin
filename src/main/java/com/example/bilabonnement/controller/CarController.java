@@ -36,8 +36,7 @@ public class CarController {
     @PostMapping("/SkadeOgUdbedring/Biler-uden-skader")
     public String addDamage(WebRequest damageData){
         int carID = Integer.parseInt(damageData.getParameter("carID"));
-        System.out.println(damageData.getParameter("price"));
-        System.out.println(damageData.getParameter("damage"));
+
         if(damageData.getParameter("price").equals("")){
 
             return "redirect:http://localhost:8080/SkadeOgUdbedring/Biler-uden-skader";

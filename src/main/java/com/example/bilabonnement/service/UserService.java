@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class UserService {
 
     static UserService userService = new UserService();
-    UserService(){}
+    private UserService(){}
 
 
     public static boolean checkBruger(String username, String password) {
